@@ -2,7 +2,7 @@ import whisper
 import ssl
 import google.generativeai as genai
 import os
-GOOGLE_API_KEY = 'AIzaSyBX_gz-djWYmm165YjD4STUX0l5cgsG9hc'
+GOOGLE_API_KEY = 'your key'
 ssl._create_default_https_context = ssl._create_unverified_context
 genai.configure(api_key=GOOGLE_API_KEY)
 model = whisper.load_model("base")
